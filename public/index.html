@@ -11,7 +11,7 @@
         
         <script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
         <script>
-            var socket = io.connect("http://localhost:8080/");
+            var socket = io.connect("http://192.168.62:8080/");
             
             socket.emit("welcomeServer", {
                 name: "Jannis"
@@ -46,11 +46,6 @@
             <label>Name:</label><input id="username" type="text" /><br />
             <label>Nachricht:</label><input id="message" type="text" /><br />
             <button id="submit" class="btn btn-primary">Absenden!</button>
-            <script>
-
-                alert("Sie befinden sich auf dem Host " + window.location.hostname);
-          
-              </script>
         </div>
     </body>
 </html>

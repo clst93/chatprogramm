@@ -31,5 +31,4 @@ io.on("connection", function(socket) {
 server.listen(8080);
 var os = require("os");
 console.log(os.hostname());
-//testkew
 
